@@ -495,7 +495,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     gap: 2rem; /* adds spacing between images */
     margin-bottom: var(--gutter-normal);
-    border: 1px solid red;
+
     flex-wrap: wrap;
 }
 
