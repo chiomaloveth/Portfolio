@@ -503,6 +503,9 @@ body:not(.user-is-tabbing) a:focus {
     width: 200px;
     height: auto;
     transition: transform 0.3s ease;
+     border: none;         /* remove any default borders */
+  outline: none;        /* remove focus outline */
+  box-shadow: none;
 }
 
 /* Optional: adjust margin on larger screens */
